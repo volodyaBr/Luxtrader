@@ -1,0 +1,74 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="42px" height="28px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="26px" height="26px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="0" />
+    <feFlood flood-color="rgb(128, 99, 59)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="1"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<filter id="Filter_1">
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="0" />
+    <feFlood flood-color="rgb(255, 241, 216)" result="floodOut" />
+    <feComposite operator="out" in="floodOut" in2="blurOut" result="compOut" />
+    <feComposite operator="in" in="compOut" in2="SourceAlpha" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.44"/></feComponentTransfer>
+    <feBlend mode="normal" in2="SourceGraphic" />
+</filter>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(0,0,0)" stop-opacity="0.96" />
+  <stop offset="50%" stop-color="rgb(158,158,158)" stop-opacity="0.96" />
+  <stop offset="50%" stop-color="rgb(208,208,208)" stop-opacity="0.96" />
+  <stop offset="100%" stop-color="rgb(158,158,158)" stop-opacity="0.96" />
+</linearGradient>
+<filter id="Filter_2">
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="0" />
+    <feFlood flood-color="rgb(255, 241, 216)" result="floodOut" />
+    <feComposite operator="out" in="floodOut" in2="blurOut" result="compOut" />
+    <feComposite operator="in" in="compOut" in2="SourceAlpha" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.44"/></feComponentTransfer>
+    <feBlend mode="normal" in2="SourceGraphic" />
+</filter>
+<filter id="Filter_3">
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="0" />
+    <feFlood flood-color="rgb(255, 241, 216)" result="floodOut" />
+    <feComposite operator="out" in="floodOut" in2="blurOut" result="compOut" />
+    <feComposite operator="in" in="compOut" in2="SourceAlpha" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.44"/></feComponentTransfer>
+    <feBlend mode="normal" in2="SourceGraphic" />
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="#bb9c66"
+ d="M13.000,4.000 C17.971,4.000 22.000,7.938 22.000,12.796 C22.000,17.655 17.971,21.593 13.000,21.593 C8.029,21.593 4.000,17.655 4.000,12.796 C4.000,7.938 8.029,4.000 13.000,4.000 Z"/>
+</g>
+<g filter="url(#Filter_1)">
+<path fill-rule="evenodd"  fill="#bb9c66"
+ d="M15.669,8.495 C15.796,9.001 15.809,9.044 15.797,9.563 C15.792,9.764 15.676,10.691 15.707,10.975 C15.733,11.209 15.793,11.228 15.886,11.421 C16.050,11.757 15.995,12.221 15.933,12.560 C15.898,12.745 15.826,13.009 15.716,13.161 C15.594,13.328 15.351,13.329 15.244,13.524 C15.089,13.804 15.177,14.197 15.079,14.500 C14.968,14.843 14.686,14.867 14.665,15.317 C14.803,15.336 14.941,15.356 15.079,15.375 C15.217,15.665 15.471,16.249 15.730,16.425 C15.947,16.483 16.164,16.542 16.381,16.600 C17.141,16.907 17.986,17.275 18.748,17.592 C19.442,17.881 20.273,17.983 20.524,18.701 C20.524,19.188 20.570,20.338 20.557,20.976 C20.557,20.976 20.560,23.000 13.000,23.000 C5.441,23.000 5.443,20.976 5.443,20.976 C5.430,20.338 5.477,19.188 5.477,18.701 C5.727,17.983 6.558,17.881 7.252,17.592 C8.014,17.275 8.859,16.907 9.619,16.600 C9.836,16.542 10.053,16.483 10.270,16.425 C10.529,16.249 10.783,15.665 10.921,15.375 L11.229,15.301 C11.159,14.918 10.918,14.888 10.818,14.617 C10.779,14.208 10.739,13.800 10.700,13.391 C10.702,13.410 10.417,13.340 10.379,13.317 C9.977,13.069 9.969,12.060 9.930,11.641 C9.913,11.450 10.183,11.292 10.108,10.941 C9.668,8.883 10.298,7.920 11.296,7.601 C11.989,7.324 13.281,6.811 14.487,7.543 L14.786,7.816 L15.271,7.898 C15.514,8.036 15.669,8.495 15.669,8.495 Z"/>
+</g>
+<path fill="url(#PSgrad_0)"
+ d="M15.669,8.495 C15.796,9.001 15.809,9.044 15.797,9.563 C15.792,9.764 15.676,10.691 15.707,10.975 C15.733,11.209 15.793,11.228 15.886,11.421 C16.050,11.757 15.995,12.221 15.933,12.560 C15.898,12.745 15.826,13.009 15.716,13.161 C15.594,13.328 15.351,13.329 15.244,13.524 C15.089,13.804 15.177,14.197 15.079,14.500 C14.968,14.843 14.686,14.867 14.665,15.317 C14.803,15.336 14.941,15.356 15.079,15.375 C15.217,15.665 15.471,16.249 15.730,16.425 C15.947,16.483 16.164,16.542 16.381,16.600 C17.141,16.907 17.986,17.275 18.748,17.592 C19.442,17.881 20.273,17.983 20.524,18.701 C20.524,19.188 20.570,20.338 20.557,20.976 C20.557,20.976 20.560,23.000 13.000,23.000 C5.441,23.000 5.443,20.976 5.443,20.976 C5.430,20.338 5.477,19.188 5.477,18.701 C5.727,17.983 6.558,17.881 7.252,17.592 C8.014,17.275 8.859,16.907 9.619,16.600 C9.836,16.542 10.053,16.483 10.270,16.425 C10.529,16.249 10.783,15.665 10.921,15.375 L11.229,15.301 C11.159,14.918 10.918,14.888 10.818,14.617 C10.779,14.208 10.739,13.800 10.700,13.391 C10.702,13.410 10.417,13.340 10.379,13.317 C9.977,13.069 9.969,12.060 9.930,11.641 C9.913,11.450 10.183,11.292 10.108,10.941 C9.668,8.883 10.298,7.920 11.296,7.601 C11.989,7.324 13.281,6.811 14.487,7.543 L14.786,7.816 L15.271,7.898 C15.514,8.036 15.669,8.495 15.669,8.495 Z"/>
+<g filter="url(#Filter_2)">
+<path fill-rule="evenodd"  fill="#bb9c66"
+ d="M36.010,10.892 L34.864,12.006 L32.000,9.220 L29.136,12.006 L27.990,10.892 L32.000,6.991 L33.146,8.105 L33.146,8.105 L36.010,10.892 Z"/>
+</g>
+<path fill="url(#PSgrad_0)"
+ d="M36.010,10.892 L34.864,12.006 L32.000,9.220 L29.136,12.006 L27.990,10.892 L32.000,6.991 L33.146,8.105 L33.146,8.105 L36.010,10.892 Z"/>
+<g filter="url(#Filter_3)">
+<path fill-rule="evenodd"  fill="#bb9c66"
+ d="M36.010,16.108 L32.573,19.453 L32.573,19.452 L32.000,20.010 L27.990,16.108 L29.136,14.994 L32.000,17.780 L34.864,14.994 L36.010,16.108 Z"/>
+</g>
+<path fill="url(#PSgrad_0)"
+ d="M36.010,16.108 L32.573,19.453 L32.573,19.452 L32.000,20.010 L27.990,16.108 L29.136,14.994 L32.000,17.780 L34.864,14.994 L36.010,16.108 Z"/>
+</svg>

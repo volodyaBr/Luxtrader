@@ -1,0 +1,56 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+@import url("https://uk.allfont.net/allfont.css?fonts=ceremonious-one");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Narrow&display=swap');
+
+@font-face {
+  font-family: 'BravoRG';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BravoRG Regular'), url('../../fonts/BravoRG.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PFDinTextCondPro-Regular'), url('../../fonts/PFDinTextCondPro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondPro-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('PFDinTextCondPro-Medium'), url('../../fonts/PFDinTextCondPro-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Ceremonious One';
+  src: url('../../fonts/ofont.ru_Ceremonious One.eot');
+  src: local('☺'), url('../../fonts/ofont.ru_Ceremonious One.woff') format('woff'), url('../../fonts/ofont.ru_Ceremonious One.ttf') format('truetype'), url('../../fonts/ofont.ru_Ceremonious One.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Idealist Sans';
+  src: local('Idealist Sans'), local('IdealistSans'), url('../../fonts/idealistsans.woff2') format('woff2'), url('../../fonts/idealistsans.woff') format('woff'), url('../../fonts/idealistsans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
